@@ -15,7 +15,7 @@ class ColorMap():
         :param alpha: color alpha
         :param levels: discretize the colorscale into levels
         """
-        from pylab import get_cmap
+        from matplotlib.pylab import get_cmap
         self.cmap = get_cmap(cmap_name)
         self.alpha = alpha
         self.levels = levels
